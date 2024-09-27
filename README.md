@@ -22,9 +22,7 @@ and to drive a lifelong career in software development and passion for computers
 With that said, I cannot deny a love for music and all-things technical regarding it. If you're interested to learn more about music and talk to
 folks who love it even more than I do...
 
-## Websites I recommend
-	- [Steve Hoffman Forums] (https://forums.stevehoffman.tv)
-	* This site has a lot of music lovers, though primarily vintage, and they know a lot about hardware! It's owned and operated by a very famous audio engineer named Steve Hoffman, who's semi-active to this day!
+## Websites I Use to Gain More Knowledge on Music
+	- [Steve Hoffman Forums] (https://forums.stevehoffman.tv) - This site has a lot of music lovers, though primarily vintage, and they know a lot about hardware! It's owned and operated by a very famous audio engineer named Steve Hoffman, who's semi-active to this day!
 
-	- [Audio Engineering Subreddit] (https://www.reddit.com/r/audioengineering)
-	* This subreddit on the social media giant _Reddit_ is entirely about Audio Engineering and the techniques and science behind it. There are a lot of really knowledgeable folks there and it offers a lot of insight on hardware, mixing techniques, and more!
+	- [Audio Engineering Subreddit] (https://www.reddit.com/r/audioengineering) - This subreddit on the social media giant _Reddit_ is entirely about Audio Engineering and the techniques and science behind it. There are a lot of really knowledgeable folks there and it offers a lot of insight on hardware, mixing techniques, and more!
