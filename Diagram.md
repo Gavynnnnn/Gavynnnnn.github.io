@@ -13,6 +13,7 @@ flowchart TD
     F --> G{**Blu-Ray Disc**}
 
 _**This is the section for copying a CD.**_
+
     D --> H[*Open Exact Audio Copy*]
 
     H --> I[Check for track gaps]
@@ -24,6 +25,7 @@ _**This is the section for copying a CD.**_
     K --> T
 
 _**This is the section for copying a DVD.**_
+
     E --> L[Open *MakeMKV*]
 
     L --> M[Select the Disc Drive]
@@ -35,6 +37,7 @@ _**This is the section for copying a DVD.**_
     O --> T
 
 _**This is the section for copying a Blu-Ray disc.**_
+
     G --> P[Open *DVDFab*]
 
     P --> Q[Select the subprogram *Blu-Ray Ripper*]
