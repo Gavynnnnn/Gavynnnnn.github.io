@@ -1,23 +1,17 @@
-\\ For ease of reading, I'm going to break up sections with comments. Remove the comments and this entire flowchart is compatible with Mermaid's Live Editor.
-
-\\ First and foremost, an optical disc is a digital disc that has surface marks containing data that is read by an optical laser.
+_**For ease of reading, I'm going to break up sections with comments.**_
 flowchart TD
 
     A[Copying An Optical Disc] -->|**Check Disc Type**| B(Choose Disc Drive)
 
-\\ It's important what drive you choose, because each disc type has a unique laser required to read them. For the sake of this diagram, the DVD drive has both a red laser (DVD) and a 780 nm laser diode (CD)
     B --> C{DVD Drive}
-
     B --> F{Blu-Ray Drive}
 
 
     C --> D[**CD**]
-
     C --> E[**DVD**]
-
     F --> G{**Blu-Ray Disc**}
 
-\\ This is the section for copying a CD, or a Compact Disc. This format is primarily used for storing audio media, particularly music.
+_**This is the section for copying a CD.**_
     D --> H[*Open Exact Audio Copy*]
 
     H --> I[Check for track gaps]
@@ -28,7 +22,7 @@ flowchart TD
 
     K --> T
 
-\\ This is the section for copying a DVD, or a Digital Video/Versatile Disc, both are considered acceptable, which is an optical disc format and standard released primarily for video content.
+_**This is the section for copying a DVD.**_
     E --> L[Open *MakeMKV*]
 
     L --> M[Select the Disc Drive]
@@ -39,7 +33,7 @@ flowchart TD
 
     O --> T
 
-\\ This is the section for copying a Blu-Ray disc, an optical disc format that uses a blue laser for reading more fine pits of data than a traditional red laser can read.
+_**This is the section for copying a Blu-Ray disc.**_
     G --> P[Open *DVDFab*]
 
     P --> Q[Select the subprogram *Blu-Ray Ripper*]
@@ -51,4 +45,11 @@ flowchart TD
     
     S --> T[Program outputs media files to destination folder]
     T --> Z{Done.} 
-    
+
+* First and foremost, an optical disc is a digital disc that has surface marks containing data that is read by an optical laser.
+     * I was preferring to use // to indent comments, but GitHub did not like that and it would make the diagram difficult to import so I opted for Markdown instead.
+* It's important what drive you choose, because each disc type has a unique laser required to read them. For the sake of this diagram, the DVD drive has both a 300-650 nm laser (DVD) and a 780 nm laser diode (CD).
+
+1. A CD, or a Compact Disc, is an optical disc format that is primarily used for storing audio media, particularly music. It uses the most 'crude' laser type of the three main optical discs described here.
+2. A DVD, or a Digital Video/Versatile Disc (both are considered acceptable), is an optical disc format and standard released primarily for video content.
+3. A Blu-Ray disc is an optical disc format made to improve upon the DVD. It uses a blue laser, rather than a red one, to allow for more fine data structure on the discs, which allows for more data to be stored.
