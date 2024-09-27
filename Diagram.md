@@ -1,6 +1,6 @@
 \\ For ease of reading, I'm going to break up sections with comments. Remove the comments and this entire flowchart is compatible with Mermaid's Live Editor.
 
-\\ First and foremost, an optical disc is a digital disc that have surface marks containing data that is read by an optical laser.
+\\ First and foremost, an optical disc is a digital disc that has surface marks containing data that is read by an optical laser.
 flowchart TD
 
     A[Copying An Optical Disc] -->|**Check Disc Type**| B(Choose Disc Drive)
