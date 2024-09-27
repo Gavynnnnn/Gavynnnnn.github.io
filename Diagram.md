@@ -5,14 +5,15 @@ flowchart TD
 
     A[Copying An Optical Disc] -->|**Check Disc Type**| B(Choose Disc Drive)
 
+\\ It's important what drive you choose, because each disc type has a unique laser required to read them. For the sake of this diagram, the DVD drive has both a red laser (DVD) and a 780 nm laser diode (CD)
     B --> C{DVD Drive}
+
+    B --> F{Blu-Ray Drive}
+
 
     C --> D[**CD**]
 
     C --> E[**DVD**]
-\\ It's important what drive you choose, because each disc type has a unique laser required to read them. For the sake of this diagram, the DVD drive has both a red laser (DVD) and a 780 nm laser diode (CD)
-
-    B --> F{Blu-Ray Drive}
 
     F --> G{**Blu-Ray Disc**}
 
